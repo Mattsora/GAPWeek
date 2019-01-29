@@ -47,6 +47,7 @@
             this.healSelfButton = new System.Windows.Forms.Button();
             this.quickAttackTimer = new System.Windows.Forms.Timer(this.components);
             this.thunderAttackTimer = new System.Windows.Forms.Timer(this.components);
+            this.charizardAttackTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -230,6 +231,11 @@
             this.thunderAttackTimer.Interval = 1000;
             this.thunderAttackTimer.Tick += new System.EventHandler(this.thunderAttackTimer_Tick);
             // 
+            // charizardAttackTimer
+            // 
+            this.charizardAttackTimer.Interval = 1000;
+            this.charizardAttackTimer.Tick += new System.EventHandler(this.charizardAttackTimer_Tick);
+            // 
             // BattleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -275,6 +281,7 @@
         private System.Windows.Forms.Button healSelfButton;
         private System.Windows.Forms.Timer quickAttackTimer;
         private System.Windows.Forms.Timer thunderAttackTimer;
+        private System.Windows.Forms.Timer charizardAttackTimer;
     }
 }
 

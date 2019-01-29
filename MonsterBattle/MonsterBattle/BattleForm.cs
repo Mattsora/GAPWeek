@@ -15,6 +15,8 @@ namespace MonsterBattle
         Random randomGenerator;
         bool enemyDead;
 
+        bool enemyTurn = false;
+
         public BattleForm()
         {
             InitializeComponent();
@@ -33,6 +35,19 @@ namespace MonsterBattle
                 attackTimer.Start();
 
                 screenShakeTimer.Start();
+                enemyTurn = true;
+                if (enemyTurn == true)
+                {
+                    friendlyPictureBox.Image = Properties.Resources.fireblast;
+
+
+                    pictureBox1.Width -= 10;
+
+                    enemyTurn = false;
+                    charizardAttackTimer.Start();
+
+
+                }
             }
             else
             {
@@ -133,6 +148,11 @@ namespace MonsterBattle
                 enemyDead = true;
                 enemyPictureBox.Image = null;
             }
+        }
+
+        private void charizardAttackTimer_Tick(object sender, EventArgs e)
+        {
+            friendlyPictureBox.Image = Properties.Resources.pokemon_zapdos_back;
         }
     }
 }
