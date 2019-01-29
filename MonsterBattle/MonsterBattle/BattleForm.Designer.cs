@@ -45,6 +45,7 @@
             this.thunderButton = new System.Windows.Forms.Button();
             this.quickAttackButton = new System.Windows.Forms.Button();
             this.healSelfButton = new System.Windows.Forms.Button();
+            this.quickAttackTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -206,6 +207,7 @@
             this.quickAttackButton.TabIndex = 3;
             this.quickAttackButton.Text = "Quick Attack";
             this.quickAttackButton.UseVisualStyleBackColor = true;
+            this.quickAttackButton.Click += new System.EventHandler(this.quickAttackButton_Click);
             // 
             // healSelfButton
             // 
@@ -215,6 +217,11 @@
             this.healSelfButton.TabIndex = 4;
             this.healSelfButton.Text = "Heal Self";
             this.healSelfButton.UseVisualStyleBackColor = true;
+            // 
+            // quickAttackTimer
+            // 
+            this.quickAttackTimer.Interval = 1000;
+            this.quickAttackTimer.Tick += new System.EventHandler(this.quickAttackTimer_Tick);
             // 
             // BattleForm
             // 
@@ -229,7 +236,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BattleForm";
             this.Text = "Pokemon Battle";
-            this.Load += new System.EventHandler(this.BattleForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -260,6 +266,7 @@
         private System.Windows.Forms.Button thunderButton;
         private System.Windows.Forms.Button quickAttackButton;
         private System.Windows.Forms.Button healSelfButton;
+        private System.Windows.Forms.Timer quickAttackTimer;
     }
 }
 
