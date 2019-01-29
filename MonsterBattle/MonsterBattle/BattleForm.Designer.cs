@@ -46,6 +46,7 @@
             this.quickAttackButton = new System.Windows.Forms.Button();
             this.healSelfButton = new System.Windows.Forms.Button();
             this.quickAttackTimer = new System.Windows.Forms.Timer(this.components);
+            this.thunderAttackTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -198,6 +199,7 @@
             this.thunderButton.TabIndex = 2;
             this.thunderButton.Text = "Thunder";
             this.thunderButton.UseVisualStyleBackColor = true;
+            this.thunderButton.Click += new System.EventHandler(this.thunderButton_Click);
             // 
             // quickAttackButton
             // 
@@ -222,6 +224,11 @@
             // 
             this.quickAttackTimer.Interval = 1000;
             this.quickAttackTimer.Tick += new System.EventHandler(this.quickAttackTimer_Tick);
+            // 
+            // thunderAttackTimer
+            // 
+            this.thunderAttackTimer.Interval = 1000;
+            this.thunderAttackTimer.Tick += new System.EventHandler(this.thunderAttackTimer_Tick);
             // 
             // BattleForm
             // 
@@ -267,6 +274,7 @@
         private System.Windows.Forms.Button quickAttackButton;
         private System.Windows.Forms.Button healSelfButton;
         private System.Windows.Forms.Timer quickAttackTimer;
+        private System.Windows.Forms.Timer thunderAttackTimer;
     }
 }
 

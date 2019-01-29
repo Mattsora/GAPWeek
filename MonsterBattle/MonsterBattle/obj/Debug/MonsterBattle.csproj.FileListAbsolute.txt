@@ -18,3 +18,13 @@ C:\Users\Aaron\Desktop\school\Periode_03\GAP\githubGAP\GAPWeek\MonsterBattle\Mon
 C:\Users\Aaron\Desktop\school\Periode_03\GAP\githubGAP\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.CoreCompileInputs.cache
 C:\Users\Aaron\Desktop\school\Periode_03\GAP\githubGAP\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.exe
 C:\Users\Aaron\Desktop\school\Periode_03\GAP\githubGAP\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.pdb
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.exe.config
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.exe
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.pdb
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csprojAssemblyReference.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.BattleForm.resources
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.Properties.Resources.resources
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.GenerateResource.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.CoreCompileInputs.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.exe
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3\Project\GAPWeek\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.pdb

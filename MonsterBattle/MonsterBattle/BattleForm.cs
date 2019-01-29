@@ -102,5 +102,37 @@ namespace MonsterBattle
                 MessageBox.Show("You can not strike Charizard whilst he is already down.");
             }
         }
+
+        private void thunderButton_Click(object sender, EventArgs e)
+        {
+            if (!enemyDead)
+            {
+                enemyPictureBox.Tag = enemyPictureBox.Image;
+                enemyPictureBox.Image = Properties.Resources.thunder_attack;
+
+                thunderButton.Enabled = false;
+                thunderAttackTimer.Start();
+
+                screenShakeTimer.Start();
+            }
+        }
+
+        private void thunderAttackTimer_Tick(object sender, EventArgs e)
+        {
+            screenShakeTimer.Stop();
+            thunderAttackTimer.Stop();
+            thunderButton.Enabled = true;
+
+            enemyPictureBox.Image = (Image)enemyPictureBox.Tag;
+
+            enemyHealthPictureBox.Width -= 30;
+            
+            if (enemyHealthPictureBox.Width <= 0)
+            {
+                MessageBox.Show("Charizard has been fainted");
+                enemyDead = true;
+                enemyPictureBox.Image = null;
+            }
+        }
     }
 }
